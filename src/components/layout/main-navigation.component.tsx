@@ -23,6 +23,11 @@ export function MainNavigation() {
               <span className={style.badge}>{favoritesCtx.totalFavorites}</span>
             </Link>
           </li>
+          <li>
+            <Link to="/about">
+              About Me
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
